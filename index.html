@@ -1,0 +1,21 @@
+<html>
+
+<head>
+</head>
+
+<body>
+  <input class="input border p-2 m-2 rounded" type="text" placeholder="Tap on the virtual keyboard to start" />
+  <input class="input border p-2 m-2 rounded" type="text" placeholder="Tap on the virtual keyboard to start" />
+
+  <div id="keyboardContainer" class="keyboard-container fixed bottom-4 left-4 w-[600px] shadow-lg z-50">
+    <div class="keyboard-draggable bg-gray-400 text-white px-4 py-2 flex justify-between cursor-move rounded-t-md">
+      <span>Clavier</span>
+      <div class="keyboard-close-button cursor-pointer hover:text-red-500">✕</div>
+    </div>
+    <div class="simple-keyboard bg-white rounded-b-md p-2 text-sm"></div>
+  </div>
+
+  <script src="/libs/simple-keyboard/simple-keyboard.min.js"></script>
+</body>
+
+</html>
